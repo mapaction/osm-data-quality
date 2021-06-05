@@ -1,2 +1,2 @@
 # osm-data-quality
-Tools for evaluation of OSM data quality
+Tools for OSM data quality evaluation
