@@ -1,0 +1,19 @@
+summary: This product provides the simplest overview and orientation of a country, region or other geographical area providing an overview of the capital and other key cities, major roads and transport links and physical features such as rivers and lakes.
+
+potential_use_case: 
+    - Intended for new responders coming into a country that is new to them or at least unfamiliar it helps orientate them and familiarise themselves with the overall lie of the land.
+
+required_layers: 
+    - Major settlements
+    - Road network
+    - Rail network
+    - Administrative boundaries
+    - Lakes
+    - Rivers
+    - Airports
+    - Seaports
+    - Elevation (DEM)
+    
+reference: https://guides.mapaction.org/country-overview
+
+last_updated: September 2, 2021
