@@ -1,0 +1,6 @@
+geopandas
+jupytext
+jupyter
+pandas
+numpy
+seaborn

@@ -1,0 +1,41 @@
+---
+title: "Country Overview OSM Data Quality"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE) # do not print code by default
+knitr::opts_chunk$set(include = FALSE) # do not print output by default
+knitr::opts_chunk$set(message = FALSE) # do not print output by default
+
+source('data_processing.R')
+```
+
+# Product Summary: Country Overview
+
+**About**: `r params$summary`
+
+**Use cases**: `r params$potential_use_case`
+
+**Required layers**: `r params$required_layers`
+
+**Last updated**: `r params$last_updated`
+
+
+# Data Quality
+
+
+## Overall Report Results 
+
+```{r overall-report, include=TRUE, fig.height=3}
+
+map_overall
+
+
+```
+
+
+## Sub Indicator Results 
+
+
+## Report Metadata
